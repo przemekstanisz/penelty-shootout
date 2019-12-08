@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>penelty kick</title>
+        <meta name="description" content="css trening">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+    </head>
+
+    <body>
+
+    <main class="main">
+
+    <header class="header"> <!-- game title container -->
+
+        <h1 class="game-title">penelty shootout</h1>
+        
+    </header>
+
+    <section class="score-board"> <!-- score of penelty shootout -->
+
+            <p class="score-board__text">user</p>
+
+            <p id="user-score" class="score-board__count">0</p>
+
+            <p class="score-board__between">:</p>
+
+            <p id="computer-score" class="score-board__count">0</p>
+            
+            <p class="score-board__text">comp</p>
+
+    </section>
+
+    <section class="result"> <!-- result of last penelty container -->
+
+        <p class="result__text"></p>
+
+    </section>
+
+    <section class="goal"> <!-- woodwork container -->
+
+        <div class="goal__border"> <!-- goal woodwork -->
+
+            <div id="tl" computer-score class="goal__tl"> <!-- top-left corner -->
+                <p class="goal__target-line"></p>
+                <p class="goal__target-circle"></p>
+            </div> 
+
+            <div id="tr" class="goal__tr"> <!-- top-right corner -->
+                <p class="goal__target-line"></p>
+                <p class="goal__target-circle"></p>
+            </div>
+
+            <div id="br"  class="goal__br"> <!-- bottom-right corner -->
+                <p class="goal__target-line"></p>
+                <p class="goal__target-circle"></p>
+            </div> 
+
+            <div id="bl"  class="goal__bl"> <!-- bottom-left corner -->
+                <p class="goal__target-line"></p>
+                <p class="goal__target-circle"></p>
+            </div>
+            
+            <div id="cc"  class="goal__cc"> <!-- center -->
+                <p class="goal__target-line"></p>
+                <p class="goal__target-circle"></p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="author-info"> <!-- no comment here needed -->
+
+        <p class="author-info__text"></p>
+
+    </footer>
+
+    </main>
+    
+    <script src="script.js" charset="utf-8"></script>
+
+    </body>
+
+</html>
+
